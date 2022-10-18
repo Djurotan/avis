@@ -1,0 +1,82 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+        #grid1{
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            grid-gap: 20px;
+        }
+      
+        #datoOgNavn{
+            text-align: right;
+        }
+        
+        #førsteSidetall{
+            text-align: left;
+           
+        }
+
+        #tema{
+            text-align: left;
+        }
+
+        .blåSkrift{
+            color:rgb(67, 206, 234)
+        }
+
+
+        #overskrift{
+            text-align: center;
+        }
+        
+        #sitat1{
+            text-align: center;
+        }
+
+        #headerBilde{
+            text-align: center;
+        }
+
+
+        
+        main{
+            display: grid;
+            grid-template-columns: 120% 120% 60%;
+            max-width: 500px;
+            grid-template-rows: auto;
+            grid-row-gap: 0px;
+
+        
+        }
+
+
+        #storForbokstav{
+            font-size: 30px;
+        }
+
+
+        .linjeskift1{
+            margin-bottom: 0;
+        }
+        .linjeskift2{
+            margin: 0;
+            padding-top: 0;
+            padding-left: 20px;
+        }
+        .linjeskift3{
+            margin:0;
+            padding-top: 0;
+        
+        }
+
+        #bildeTrumpOgWalker{
+            height: 400px;
+            width: 300px;
+            text-align: center;
+            padding-top: 50px;
+            padding-left: 80px;
+        }
